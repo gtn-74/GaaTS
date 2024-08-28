@@ -1,98 +1,66 @@
-# GaaTS
+# やりたいこと
 
-[GaaTS とは](https://qiita.com/sta/items/e85dc381774acc9ac3c2#gaats-%E3%81%A8%E3%81%AF)
+- [javascript](https://developer.mozilla.org/ja/docs/Web/JavaScript)
+- [ガイド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide)
+- [リファレンス](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference)
+- [技術概要](https://developer.mozilla.org/ja/docs/Web/JavaScript/JavaScript_technologies_overview)
 
-## マークダウン記法
+## 学びたいプログラミング言語
 
-### 強調
+### JavaScript の後
 
-normal **italic** normal // 太線  
-normal _italic_ normal // 斜め線
-
-### 取り消し線
-
-~~取り消し線~~
-
-### 箇条書き
-
-- リスト 1
-  - ネスト リスト 1_1
-    - ネスト リスト 1_1_1
-    - ネスト リスト 1_1_2
-  - ネスト リスト 1_2
-- リスト 2
-- リスト 3
-
-### 番号付き
-
-1. 番号付きリスト 1
-   1. 番号付きリスト 1_1
-   1. 番号付きリスト 1_2
-1. 番号付きリスト 2
-1. 番号付きリスト 3
-
-### 表組み
-
-| header1    |     header2 |   header3    |
-| :--------- | ----------: | :----------: |
-| align left | align right | align center |
-| a          |           b |      c       |
-
-| Left align | Right align | Center align |
-| :--------- | ----------: | :----------: |
-| This       |        This |     This     |
-| column     |      column |    column    |
-| will       |        will |     will     |
-| be         |          be |      be      |
-| left       |       right |    center    |
-| aligned    |     aligned |   aligned    |
-
-\
-
-### 引用
-
-> お世話になります。xxx です。
->
-> ご連絡いただいた、バグの件ですが、仕様です。
-
-#### 二重引用
-
-> お世話になります。xxx です。
->
-> ご連絡いただいた、バグの件ですが、仕様です。
->
-> > お世話になります。 yyy です。
-> >
-> > あの新機能バグってるっすね
-
-### pre 記法
-
-    # Tab
-    class Hoge
-        def hoge
-            print 'hoge'
-        end
-    end
+1. Dart（Flutter）（マルチ）
+2. Go（手続き型）
+3. ~~Python（マルチ、オブジェクト指向より）~~
+4. Rust（マルチ）
+5. Haskell（関数型プログラミング）
+6. Deno
+   ---240702 時点
 
 ---
 
-    # space
-    class Hoge
-      def hoge
-        print 'hoge'
-      end
-    end
-
-### 水平線
+1. Ruby
+2. Go
+3. Scala
 
 ---
 
-### リング表示
+1. 原理・原則
+2. 方法論
 
-https://www.google.co.jp/
+### 横に広く → 縦に高くに変えた
 
-### プレビューコマンド
+アジャイル開発や DevOps など、複数の開発フレームワークを知るよりも、なんで多岐に渡る開発手法が生まれたのか。
+そのフレームワークが派生した根拠を抑える方が重要（根拠は廃れないから）
 
-vscode で md のプレビューを確認できる!
+## 原理・原則
 
-`command + K + V`
+原理：法則で証明されている揺るがないもの  
+原則：コミュニティによるルール、慣習
+
+## 定義・定理
+
+定義：  
+定理：
+
+[あなたがさっきまで読んでいた技術的に役立つ記事は、10 年後も使えるでしょうか？~~ほとんどの場合でいいえ~~](https://syu-m-5151.hatenablog.com/entry/2024/08/20/191435#Part-1-Introduction)
+
+[この世の中に溢れているので自分が発言する必要はないが「ソフトウェアは認知の限界まで複雑になる」を自分なりに再考する
+](https://syu-m-5151.hatenablog.com/entry/2024/08/25/142213)
+
+## falsy
+
+JavaScript において条件文、論理演算において、`false`として扱われる値。
+
+| falsy              |
+| :----------------- |
+| false              |
+| 0                  |
+| ""                 |
+| null               |
+| undefined          |
+| NaN (Not-a-Number) |
+
+## ["手段"は"本質"よりも早く廃れる](https://gist.github.com/Fendo181/328fba659384b8ab4315bba045986392)
+
+**[Gaji-Labo](https://www.gaji.jp/recruit/front-end-engineer)**
