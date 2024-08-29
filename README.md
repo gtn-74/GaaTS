@@ -61,6 +61,6 @@ JavaScript において条件文、論理演算において、`false`として�
 | undefined          |
 | NaN (Not-a-Number) |
 
-## ["手段"は"本質"よりも早く廃れる](https://gist.github.com/Fendo181/328fba659384b8ab4315bba045986392)
 
-**[Gaji-Labo](https://www.gaji.jp/recruit/front-end-engineer)**
+
+
