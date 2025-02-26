@@ -1,0 +1,67 @@
+{
+    "compilerOptions": {
+      /**
+      * ! targetは、出力形式
+      * es2022以降がnode18に対応している様子
+      * esnextにしておくと最新のjavascriptを利用できる
+      * reactであってもesnextは利用できる
+      * ! targetで指定するのはあくまで構文まで
+      *
+      */
+      "target": "ESNext",
+  
+      /**
+      * ! libは、型定義、コード補完、利用できるAPIなど
+      * esnextには、DOM API
+      *
+      */
+      "lib": ["dom", "dom.iterable", "esnext"],
+
+
+      "allowJs": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "strict": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+
+      /**
+      * トランスパイルされたjsがどのようにモジュールを読み込むのか
+      * 
+      *
+      *
+      */
+      "module": "Node16",
+
+
+      "moduleResolution": "Node16",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "incremental": true,
+      "types": ["vitest/globals"],
+      "paths": {
+        "@/*": ["./*"]
+      },
+      "plugins": [
+        {
+          "name": "next"
+        }
+      ],
+      "baseUrl": "."
+    },
+    "include": [
+      "next-env.d.ts",
+      "./**/*.ts",
+      "./**/*.tsx",
+      ".next/types/**/*.ts",
+      "mocks/handlers.tsw",
+      "public/mockServiceWorker.jon",
+      "mocks/serviceWorker.ts",
+      "mocks/handlers.js",
+      "mocks/browser.js",
+      "e2e-test/example.spec.text",
+      "hooks/data/useFetchTalents/index.test.text"
+  , "vitest.setup.ts", "vite.config.ts"  ],
+    "exclude": ["node_modules"]
+  }

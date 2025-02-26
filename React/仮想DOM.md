@@ -13,3 +13,16 @@ React は、仮想 DOM をメモリ上に構築する
 ブラウザエンジンの種類
 
 - Blink、WebKit など
+
+v8 は、Blink のコア
+
+- Node.js: C++, V8
+- Deno: Rust, V8
+- Bun: Zig, JavaScriptCore (Webkit)
+
+## js コードの読まれ方
+
+実行コンテキスト単位で処理が実行される
+コールスタックに積まれる
+
+
