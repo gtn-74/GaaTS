@@ -1,8 +1,6 @@
 # メモリとポインター
 
-
 ## 多分
-
 
 ```c
 #include <stdio.h>
@@ -19,8 +17,6 @@ int main() {
 }
 
 ```
-
-
 
 ```go
 package main
